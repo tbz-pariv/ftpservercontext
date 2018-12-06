@@ -1,4 +1,4 @@
-ftpservercontext
+FTPServerContext
 ================
 
 You need a temporary ftp server in your python unittests?
@@ -12,7 +12,7 @@ Usage::
 
         temp_dir = tempfile.mkdtemp()
         with FTPServerContext(temp_dir) as ftp_context:
-            # now you have these variables for your test your ftp client code:
+            # now you have these variables for testing your ftp client code:
             ftp_context.ip_address
             ftp_context.test_user_name
             ftp_context.test_user_password
