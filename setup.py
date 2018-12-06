@@ -13,13 +13,15 @@ setuptools.setup(
     # All reusable libraries use install_requires.
     # Projects (containing only config) can use requirements.txt
     install_requires=[
+        'pyftpdlib',
+        'ftputil',
     ],
 
     include_package_data=True,
 
     entry_points={
         'console_scripts': [
-            'print-hello-world=package.hello:main',
+             'serve_directory_via_ftp=ftpservercontext.console_scripts:serve_directory_via_ftp',
         ],
     }
 )
