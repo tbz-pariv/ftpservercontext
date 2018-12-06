@@ -4,7 +4,7 @@ import setuptools
 
 setuptools.setup(
     name='ftpservercontext',
-    version='2018.2.0',
+    version='2018.3.0',
     license='commercial',
     author='Thomas Guettler',
     author_email='guettliml.ftpservercontext@thomas-guettler.de',
