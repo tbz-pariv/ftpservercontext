@@ -1,3 +1,1 @@
-PACKAGE
-
-http://www.tbz-pariv.lan/index.html/doku.php?id= ....
+Temporary ftp server context.
