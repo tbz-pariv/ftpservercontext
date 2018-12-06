@@ -1,1 +1,0 @@
-Temporary ftp server context.
