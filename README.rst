@@ -5,6 +5,18 @@ You need a temporary ftp server in your python unittests?
 
 This small library provides you the class called `FTPServerContext`.
 
+Uses `pyftpdlib <https://github.com/giampaolo/pyftpdlib>`_ to run the ftp-server.
+
+Supports:
+
+* ftp
+* ftps (FTP over TLS)
+
+Does not support:
+
+* sftp (FTP via SSH)
+
+
 Usage
 -----
 
