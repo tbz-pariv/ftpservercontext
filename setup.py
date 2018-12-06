@@ -4,7 +4,7 @@ import setuptools
 
 setuptools.setup(
     name='ftpservercontext',
-    version='2018.0',
+    version='2018.1.0',
     license='commercial',
     long_description=open('README.txt').read(),
     packages=setuptools.find_packages(),
@@ -14,7 +14,6 @@ setuptools.setup(
     # Projects (containing only config) can use requirements.txt
     install_requires=[
         'pyftpdlib',
-        'ftputil',
     ],
 
     include_package_data=True,
