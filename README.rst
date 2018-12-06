@@ -8,6 +8,8 @@ This small library provides you the class called `FTPServerContext`.
 Usage
 -----
 
+Usage::
+
         temp_dir = tempfile.mkdtemp()
         with FTPServerContext(temp_dir) as ftp_context:
             # now you have these variables for your test your ftp client code:

@@ -1,3 +1,6 @@
 ftputil
 pytest>=3.0.6
 bumpversion
+readme-renderer
+docutils
+
