@@ -1,0 +1,2 @@
+include requirements.txt
+recursive-include dist_skel/static *.js *.png *.css *.gif
