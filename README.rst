@@ -18,6 +18,15 @@ Usage::
             ftp_context.test_user_password
             ftp_context.port
 
+Install
+-------
+
+Via pip::
+
+    pip install ftpservercontext
+
+
+See: https://pypi.org/project/ftpservercontext/
 
 Internals
 ---------
