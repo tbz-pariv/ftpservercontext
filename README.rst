@@ -36,6 +36,7 @@ With subprocess.Popen() a script called `serve_directory_via_ftp` gets called.
 You provide `FTPServerContext` a directory and the ftp server serves this directory via ftp running on '127.0.0.1' and a matching
 open port.
 
+If the python interpreter leaves the with-block, then the subprocess running the ftp-server gets automatically terminated.
 
 You can see a working example in the unittest: https://github.com/tbz-pariv/ftpservercontext/blob/master/ftpservercontext/tests/test_ftpservercontext.py
 
